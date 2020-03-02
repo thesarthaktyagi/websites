@@ -1,0 +1,27 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -1090px;}
+  50% {margin-left: -1090px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}

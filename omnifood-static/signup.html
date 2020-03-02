@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Omnifood Signup</title>
+    
+    </head>
+    <body>
+<div class="container">
+  <img class="mySlides" src="resources/img/signfood1.jpg" style="width:100%">
+  <img class="mySlides" src="resources/img/signfood2.jpg" style="width:100%">
+  <img class="mySlides" src="resources/img/signfood3.jpg" style="width:100%">
+  <img class="mySlides" src="resources/img/signfood4.jpg" style="width:100%">
+</div>
+         <div class="hero-text-box">
+           <h1>Hello Foodie !!<br>Grab your meal now</h1> 
+             <p1>Hey there,<br> please login or signup to get your tasty food.<br>
+                    We offer a wide range of healthy food.<br>
+                        Don't forget to subscribe our newsletter <br> to get latest updates
+                            and offers.</p1>
+           
+           
+</div>
+        <div class="loginbox">
+            <h2>Signup Here !</h2>
+            <form>
+                <p>Enter Name</p>
+                <input type="text" name="username" placeholder="Enter Username">
+                <p>Enter Email</p>
+                <input type="email" name="email" placeholder="Enter Your Email">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Enter Your Password"><br> 
+                <a class="SignUp-btn" href="homepage.html">Sign Up</a><br>
+                <a class="forgot" href="#">Forgot Password ?</a>
+                        
+            </form>
+        
+        
+        
+        </div>
+
+
+        
+        
+        
+        
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>    
+    
+</html>

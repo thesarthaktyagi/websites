@@ -1,0 +1,194 @@
+
+.mySlides {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 940px;
+    transform: translate(-40%,-50%);
+}
+
+h1 {
+    margin: 0;
+    font-size: 240%;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+    }
+
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background-color: rgba(255,255,255,0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(70%, -50%);
+    box-sizing: border-box;
+    padding: 70px,30px;
+    border-radius: 30px;
+}
+
+
+.btn {
+    
+    display: inline-block;
+    padding: 5px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    margin-top: 1px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color: #e67e22;
+}
+
+
+.full-btn {
+    background-color:#e67e22;
+    
+}
+
+
+h2 {
+    
+    margin: 15px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #e67e22;
+
+}
+
+
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.loginbox input {
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #e67e22;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px; 
+    text-align: center;
+    margin-left: 62px;
+}
+
+.forgot {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #e67e22;
+    margin-left: 95px;
+    
+    }
+
+
+
+.hero-text-box p1
+{
+    font-size: 20px;
+    color: #f1c40f;
+    text-transform: uppercase;
+    
+}
+
+
+
+.SignUp-btn {
+    display: inline-block;
+    padding: 5px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    margin-top: 1px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    background-color: #e67e22;
+    align-content: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.half-btn {
+    
+}

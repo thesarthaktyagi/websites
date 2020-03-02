@@ -1,0 +1,15 @@
+extends base
+
+block content
+  main.main
+    .review-form
+      h2.heading-secondary.ma-bt-lg Add review 
+      form.form.form--review
+        .form__group
+          label.form__label(for='rating') Give rating 0 - 5
+          input#rating.form__input(type='text', placeholder='Enter your rating', required)
+        .form__group.ma-bt-md
+          label.form__label(for='review') Your review
+          input#review.form__input(type='text', placeholder='Tell us abour your tour', required)
+        .form__group
+          button.btn.btn--green Add Your review
